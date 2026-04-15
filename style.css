@@ -1,0 +1,127 @@
+/* General layout for dual containers */
+.dualcontainer {
+  width: 100%;
+  overflow: auto;
+  margin: 20px 0;
+}
+
+.dualcontainer div {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+/* Body styling */
+body {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: lightblue;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ADD8E6;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #7ED4E6;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
+
+.navbar p {
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 2px;
+}
+
+.navbar a:hover {
+  color: #004080;
+  border-bottom: 2px solid #004080;
+}
+
+/* Headings */
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: blue;
+  margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Embedded content */
+embed, iframe, img {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+/* Playlist section */
+iframe.youtube {
+  margin-top: 20px;
+  border: none;
+}
